@@ -5,7 +5,7 @@ const AppliedJob = ({ storedJob = {} }) => {
     const {id, logo, job_title, company_name, remote_or_onsite, location, job_type, salary } = storedJob;
     const navigate = useNavigate();
     return (
-        <div className='grid grid-cols-3 items-center gap-5 mb-5'>
+        <div className='grid grid-cols-1 md:grid-cols-3 items-center gap-5 mb-5'>
             <div className='w-[240px] h-[240px] rounded-md bg-[#F4F4F4] flex items-center justify-center p-10'>
                 <img src={logo} alt="" />
             </div>

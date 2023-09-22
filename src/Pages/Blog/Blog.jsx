@@ -1,7 +1,8 @@
+import PageTitile from "../../Components/PageTitile";
 const Blog = () => {
     return (
-        <div className="c_container">
-            <h2>Blog</h2>
+        <div>
+            <PageTitile pageTitle='Blog Page' />
         </div>
     );
 };
